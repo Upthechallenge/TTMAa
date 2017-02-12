@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="@drawable/fondlogin"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="100dp"
+        >
+        <TextView
+            android:id="@+id/login"
+            android:text="@string/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/txtlogin"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:inputType="textImeMultiLine"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:id="@+id/pwd"
+            android:text="@string/pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/txtpwd"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:inputType="textImeMultiLine"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/valider"
+            android:text="Admin"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/zero"
+            android:layout_weight="0.15" />
+
+        <Button
+            android:id="@+id/sinscrire"
+            android:text="S'inscrire"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/zero"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/valider2"
+        android:text="Simple user"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zero"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
